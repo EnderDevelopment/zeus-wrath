@@ -1,0 +1,22 @@
+name: PolarAbilities
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+commands:
+  a1:
+    description: Activate the first ability of your held ability item.
+    usage: /a1
+  a2:
+    description: Activate the second ability of your held ability item.
+    usage: /a2
+  withdraw:
+    description: Withdraw the ability item in your hand.
+    usage: /withdraw
+  polarsmp:
+    description: Give a PolarSMP ability item.
+    usage: /polarsmp give <ability>
+    permission: polarsmp.admin
+permissions:
+  polarsmp.admin:
+    description: Allows giving PolarSMP ability items.
+    default: op
